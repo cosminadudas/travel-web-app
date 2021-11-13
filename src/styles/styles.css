@@ -26,4 +26,7 @@ li a:hover {
 
 .hero {
     height: 800px;
+    background-image: url("/src/images/places/travel-background.jpg");
+    background-position: center;
+    background-size: cover;
 }
