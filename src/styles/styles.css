@@ -1,32 +1,71 @@
 ul {
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 li {
-    font-family: "Oleo Script", sans-serif;
-    color: rgb(3, 92, 65);
-    font-size: 30px;
-    text-shadow: 1px 1px 2px rgb(233, 229, 232);
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(3, 92, 65);
+  font-size: 30px;
+  text-shadow: 1px 1px 2px rgb(233, 229, 232);
 }
 
 li a {
-    color: rgb(3, 92, 65);
-    padding: 10px 15px; 
+  color: rgb(3, 92, 65);
+  padding: 10px 15px;
 }
 
 li a:hover {
-    background-color: rgb(240, 248, 255);
-    border-radius: 5px;
+  background-color: rgb(240, 248, 255);
+  border-radius: 5px;
 }
 
 .hero {
-    height: 800px;
-    background-image: url("/src/images/places/travel-background.jpg");
-    background-position: center;
-    background-size: cover;
+  height: 900px;
+  background-image: url("/src/images/places/travel-background.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-content {
+  width: 700px;
+  color:rgb(240, 248, 255);
+  background-color: rgba(51, 47, 47, 0.9);
+  padding: 40px 50px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  margin: 0 auto;
+  position: relative;
+  top: 300px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero-content p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.hero-content a {
+    background-color: rgb(188, 143, 143);
+    color:rgb(233, 229, 232);
+    padding: 10px 30px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 25px;
+    box-shadow: 2px 4px 8px rgb(68m 67, 67);
+}
+
+.hero-content a:hover {
+    background-color: rgb(160, 124, 124);
 }
