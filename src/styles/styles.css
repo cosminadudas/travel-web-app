@@ -45,7 +45,7 @@
 }
 
 .highlights {
-  background-color: rgb(227, 236, 231);
+  background: linear-gradient(45deg, rgb(239, 248, 243), rgb(222, 228, 225));
   height: 450px;
 }
 
