@@ -1,0 +1,80 @@
+main {
+    padding-top: 200px;
+    background-color:rgb(177, 192, 182);
+    color:rgb(92, 94, 93);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content:space-between;
+}
+
+li.card {
+    font-family: "Quicksand", sans-serif;
+}
+
+.card {
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(68, 67, 67);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color:  rgb(238, 225, 241);
+}
+
+.card-img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-content {
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.card-link-text {
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.card-header {
+    color: rgb(3, 92, 65);
+}
+
+.card-text {
+    font-size: 17px;
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.card {
+    width: 45%;
+}
+
+.wide-card {
+    width: 100%;
+    display: flex;
+}
+
+.wide-card img {
+    width: 30%;
+}
+
+li.wide-card div {
+    width: 70%;
+}
